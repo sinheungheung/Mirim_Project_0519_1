@@ -47,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff0000"
+            android:padding="20dp"
             android:orientation="vertical">
         </LinearLayout>
         <LinearLayout
@@ -62,6 +63,49 @@
             android:layout_height="match_parent"
             android:background="#0000ff"
             android:orientation="vertical">
+            <!--이미지 넣기-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="ff0000"
+                android:text="hellokitty1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="ffff00"
+                android:text="hellokitty2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="0000ff"
+                android:text="hellokitty3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/hellokitty1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/hellokitty2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_margin="20dp"
+                android:src="@drawable/hellokitty3"/>
         </LinearLayout>
 
     </FrameLayout>
